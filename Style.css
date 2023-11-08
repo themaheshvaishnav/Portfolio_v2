@@ -1,0 +1,322 @@
+* {
+  transition: 0.4s;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+header,
+.main,
+.main2,
+.main3,
+.main5 {
+  padding: 30px 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 20%;
+}
+.main {
+  height: 100vh;
+}
+.menu ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.menu ul li {
+  list-style: none;
+  font-size: 20px;
+}
+.main {
+  text-align: center;
+  padding-top: 25vh;
+}
+h1 {
+  font-size: 60px;
+}
+.main p {
+  margin-top: 20px;
+  font-size: 24px;
+}
+.main button {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 22px;
+  font-size: 20px;
+  padding: 12px 50px;
+  margin-top: 40px;
+}
+.main button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+.menu ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #373737;
+}
+marquee {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 20px 0;
+  border-top: 1px solid #4a4949;
+  font-size: 20px;
+  font-weight: 800;
+  border-bottom: 1px solid #4a4949;
+}
+.main2 {
+  margin: 10vh 0 20vh 0;
+}
+.stip1 {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+.facetext {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 800;
+  font-size: 27px;
+}
+.img1 {
+  padding: 20px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  height: 35vh;
+  background-image: url(images/lap.jpg);
+}
+.img1 button {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 700;
+  border: 2px solid #5b5a5a;
+}
+.img1 button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.txt1 {
+  font-size: 20px;
+  text-align: end;
+  margin-top: 30px;
+}
+.txtz {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: aliceblue;
+  padding: 15px;
+}
+.sec {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: space-around;
+  align-items: center;
+}
+.box img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+.main3 {
+  margin: 20vh 0;
+}
+.main3 h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 10vh;
+}
+.box {
+  box-shadow: 10px 10px 10px #6a6a6a;
+  margin: 3vh 0;
+}
+.box:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.txtz:hover {
+  font-weight: 800;
+  transition: 0.2s;
+  background-color: aliceblue;
+  color: black;
+}
+.main4 {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  padding: 30px 50px;
+  color: white;
+}
+.main4 h2 {
+  margin-top: 10vh;
+  font-size: 50px;
+}
+.boxi {
+  display: grid;
+  grid-template-columns: 50% 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+.line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right4 img {
+  border-radius: 20px;
+  width: 100%;
+}
+.right4 img:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+  box-shadow: 10px 10px 10px rgb(79, 77, 77);
+}
+.line {
+  font-size: 30px;
+  padding: 15px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.line:hover {
+  width: 80%;
+}
+.tem {
+  background-image: url(images/blog1.jpg);
+}
+.met {
+  background-image: url(images/blog2.jpg);
+}
+.main5 {
+  height: 100vh;
+  width: 100%;
+}
+.head {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.head h2 {
+  font-size: 40px;
+}
+.head button {
+  border-radius: 20px;
+  font-size: 16px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+}
+.head button:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.05);
+}
+.gt {
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: space-around;
+  align-items: center;
+}
+.met,
+.tem {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  padding: 20px;
+}
+.tagz,
+.date {
+  margin: 10px;
+  text-align: center;
+  width: 20%;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.des p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 20px;
+  font-size: 20px;
+  word-spacing: 2px;
+}
+.template:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.main6 {
+  text-align: center;
+  height: 100vh;
+  color: white;
+  background-color: black;
+}
+.main6 h1 {
+  font-size: 120px;
+}
+.main6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main6 button {
+  padding: 20px 50px;
+  font-size: 120px;
+  font-weight: 700;
+  border-radius: 80px;
+  border: 1.2px solid white;
+  background-color: black;
+  color: white;
+}
+.main6 button:hover {
+  cursor: pointer;
+}
+footer {
+  width: 100%;
+  padding: 30px 50px;
+  background-color: black;
+}
+.ff {
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  margin: 0 auto;
+  width: 75%;
+  padding: 10px 30px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flogo {
+  width: 5%;
+}
+.flogo img {
+  border-radius: 50%;
+  width: 100%;
+}
+.menu2 ul {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+}
+ul li {
+  list-style: none;
+}
